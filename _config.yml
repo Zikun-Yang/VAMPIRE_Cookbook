@@ -8,3 +8,10 @@ logo: "/assets/images/LOGO.png"
 
 aux_links:
   Cookbook on Github: https://github.com/Zikun-Yang/VAMPIRE_Cookbook
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
