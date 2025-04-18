@@ -4,11 +4,11 @@ layout: home
 nav_order: 1
 ---
 
-{: .new }
-> VAMPIRE has a new nersion now. See [here](https://github.com/VAMPIRE-HPC/VAMPIRE/releases/tag/v2.0.0) for details.
+{: .highlight }
+VAMPIRE has a new nersion now. See [here](https://github.com/VAMPIRE-HPC/VAMPIRE/releases/tag/v2.0.0) for details.
 
 
-Welcome to the VAMPIRE Cookbook!
+Welcome to the Cookbook of VAMPIRE!
 
 VAMPIRE is a tool for simulating the dynamics of viral infection in a host cell.
 
