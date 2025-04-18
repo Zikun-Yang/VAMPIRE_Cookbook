@@ -1,6 +1,5 @@
 ---
 title: Getting Started
-layout: home
 nav_order: 2
 ---
 
@@ -8,6 +7,16 @@ nav_order: 2
 hello
 
 # General usage
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+
 
 
 
