@@ -4,7 +4,7 @@ layout: default
 nav_order: 99
 ---
 
-# Changelog
+# **Changelog**
 
 ## v1.0.0
 

@@ -4,7 +4,7 @@ layout: default
 nav_order: 2
 ---
 
-# Getting Started
+# **Getting Started**
 {: .no_toc }
 
 ## Table of contents

@@ -4,7 +4,7 @@ layout: default
 nav_order: 4
 ---
 
-# Parameters
+# **Parameters**
 {: .no_toc }
 
 ## Table of contents

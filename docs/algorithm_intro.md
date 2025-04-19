@@ -4,7 +4,7 @@ layout: default
 nav_order: 3
 ---
 
-# Brief Introduction of the Algorithm
+# **Brief Introduction of the Algorithm**
 {: .no_toc }
 
 ## Table of contents

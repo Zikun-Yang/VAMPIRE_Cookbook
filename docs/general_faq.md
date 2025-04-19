@@ -4,7 +4,7 @@ layout: default
 nav_order: 60
 ---
 
-# General FAQ
+# **General FAQ**
 
 ## How to run VAMPIRE?
 
