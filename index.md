@@ -4,6 +4,9 @@ layout: home
 nav_order: 1
 ---
 
+# **VAMPIRE**
+**Variation And Motif Pattern Identifying Tandem REpeat**
+
 {: .highlight }
 VAMPIRE has a new nersion now. See [here](https://github.com/VAMPIRE-HPC/VAMPIRE/releases/tag/v2.0.0) for details.
 

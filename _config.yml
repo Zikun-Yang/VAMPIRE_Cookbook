@@ -7,7 +7,7 @@ url: https://Zikun-Yang.github.io/VAMPIRE_Cookbook
 logo: "/assets/images/LOGO.png"
 
 aux_links:
-  Cookbook on Github: https://github.com/Zikun-Yang/VAMPIRE_Cookbook
+  File an issue: https://github.com/Zikun-Yang/VAMPIRE_Cookbook
 
 defaults:
   - scope:
