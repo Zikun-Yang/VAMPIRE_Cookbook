@@ -45,7 +45,7 @@ pip install vampire
 
 
 
-# General usage
+## General usage
 
 ```bash
 {
