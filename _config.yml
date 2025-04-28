@@ -4,7 +4,7 @@ theme: just-the-docs
 
 url: https://Zikun-Yang.github.io/VAMPIRE_Cookbook
 
-logo: "/assets/images/LOGO_with_name-02.png"
+logo: "/assets/images/LOGO_with_name-03.png"
 
 aux_links:
   File an issue: https://github.com/Zikun-Yang/VAMPIRE_Cookbook
@@ -55,7 +55,7 @@ aux_links_new_tab: false
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: 'Copyright &copy; 2025-2025 Zikun Yang. Distributed by an <a href="https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt">MIT license.</a>'
+footer_content: 'Copyright &copy; 2025-2025 <a href="https://www.yafmao.org/">Maolab</a> (Maintained by Zikun Yang). Distributed by an <a href="https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt">MIT license.</a>'
 
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
