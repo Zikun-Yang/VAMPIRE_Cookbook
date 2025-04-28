@@ -4,11 +4,12 @@ layout: home
 nav_order: 1
 ---
 
-# **VAMPIRE**
-**Variation And Motif Pattern Identifying Tandem REpeat**
+![VAMPIRE Logo](assets/images/LOGO_with_name-02.png)
+
+---
 
 {: .highlight }
-VAMPIRE has a new nersion now. See [here](https://github.com/VAMPIRE-HPC/VAMPIRE/releases/tag/v2.0.0) for details.
+VAMPIRE has a new nersion now. See [here](https://zikun-yang.github.io/VAMPIRE_Cookbook/docs/changelog.html) for details.
 
 
 Welcome to the Cookbook of VAMPIRE!
@@ -16,9 +17,8 @@ Welcome to the Cookbook of VAMPIRE!
 VAMPIRE is a tool for simulating the dynamics of viral infection in a host cell.
 
 
-----
+---
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
 
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
 [GitHub Pages]: https://docs.github.com/en/pages
