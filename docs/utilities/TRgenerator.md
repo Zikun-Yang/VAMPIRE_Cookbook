@@ -1,5 +1,6 @@
 ---
 title: TRgenerator
+parent: utilities
 layout: default
 nav_order: 40
 ---
