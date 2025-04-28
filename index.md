@@ -4,25 +4,19 @@ layout: home
 nav_order: 1
 ---
 
-![VAMPIRE Logo](assets/images/LOGO_with_name-02.png)
+<p align="center">
+  <img src="assets/images/LOGO_with_name-03.png" alt="VAMPIRE Logo" width="650px"/>
+</p>
 
 ---
+
+## Welcome to the Cookbook of VAMPIRE!
+
+VAMPIRE is an integrated tool for annotating the motif variation and complex patterns in tandem repeats on the assembly level.
 
 {: .highlight }
-VAMPIRE has a new nersion now. See [here](https://zikun-yang.github.io/VAMPIRE_Cookbook/docs/changelog.html) for details.
-
-
-Welcome to the Cookbook of VAMPIRE!
-
-VAMPIRE is a tool for simulating the dynamics of viral infection in a host cell.
+Latest version: 0.7.0. See [here](https://zikun-yang.github.io/VAMPIRE_Cookbook/docs/changelog.html) for details.
 
 
 ---
 
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate

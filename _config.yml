@@ -4,6 +4,7 @@ theme: just-the-docs
 
 url: https://Zikun-Yang.github.io/VAMPIRE_Cookbook
 
+favicon_ico: "/assets/images/LOGO.png"
 logo: "/assets/images/LOGO_with_name-03.png"
 
 aux_links:
