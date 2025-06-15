@@ -10,12 +10,17 @@ nav_order: 1
 
 ---
 
-# Welcome to the Cookbook of VAMPIRE!
+# 👋 Welcome to the VAMPIRE Cookbook
 
-VAMPIRE is an integrated tool for annotating the motif variation and complex patterns in tandem repeats on the assembly level.
+**VAMPIRE** is an integrated tool for annotating motif variation and detecting complex patterns in tandem repeats.
+
+You can find the source code, issue tracker, and development history on GitHub: 🔗 [VAMPIRE on GitHub](https://github.com/Zikun-Yang/VAMPIRE)
+
+[![PyPI version](https://badge.fury.io/py/vampire-tr.svg)](https://pypi.org/project/vampire-tr/)  [![Docker Image Version](https://img.shields.io/badge/docker-v0.3.0-blue)](https://hub.docker.com/r/zikunyang/vampire-tr/tags) [![License](https://img.shields.io/github/license/Zikun-Yang/VAMPIRE)](https://github.com/Zikun-Yang/VAMPIRE/blob/main/LICENSE)  [![Last Commit](https://img.shields.io/github/last-commit/Zikun-Yang/VAMPIRE)](https://github.com/Zikun-Yang/VAMPIRE/commits/main)
+
 
 {: .highlight }
-VAMPIRE Latest version: 0.7.0. See [here](https://zikun-yang.github.io/VAMPIRE_Cookbook/docs/changelog.html) for details.
+📦 Latest version: 0.3.0. See [Changelog](https://zikun-yang.github.io/VAMPIRE_Cookbook/docs/changelog.html) for release details.
 
 
 ---
