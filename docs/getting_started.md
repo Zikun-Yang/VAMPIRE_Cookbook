@@ -17,17 +17,17 @@ nav_order: 5
 
 
 
-## Installation
+## **Installation**
 
 VAMPIRE can be installed by running `pip install vampire`. It requires Python 3.10+ to run.
 
-### Use singularity to pull the prebuilt image (recommended)
+### **Use singularity to pull the prebuilt image (recommended)**
 ```bash
 singularity pull docker://zikunyang/vampire-tr:latest
 singularity exec vampire-tr_latest.sif vampire --help
 ```
 
-### Use singularity to build from the definition file in the repository (recommended)
+### **Use singularity to build from the definition file in the repository (recommended)**
 ```bash
 git clone git@github.com:Zikun-Yang/VAMPIRE.git
 cd VAMPIRE
@@ -40,7 +40,7 @@ singularity exec vampire-tr_latest.sif vampire --help
 >
 > alias vampire="singularity exec /path/to/your/container/vampire-tr_latest.sif vampire"
 
-### Use Docker
+### **Use Docker**
 ```bash
 docker pull zikunyang/vampire-tr:latest
 docker run -it --name vampire-tr zikunyang/vampire-tr:latest
@@ -52,7 +52,7 @@ docker exec vampire-tr vampire --help
 >
 > alias vampire="docker exec vampire-tr vampire"
 
-### Install VAMPIRE by pip
+### **Install VAMPIRE by pip**
 ```bash
 conda create -n vampire python=3.10 -y
 conda activate vampire
@@ -62,11 +62,11 @@ vampire --help
 ```
 
 
-## General usage
+## **General usage**
 
 VAMPIRE now contains 7 subcommands: `anno`, `generator`, `mkref`, `evaluate`, `refine`, `logo`, and `identity`. Test data are stored under `tests/`.
 
-### anno - Annotate TR sequences
+### **anno - Annotate TR sequences**
 
 One of the primary uses of VAMPIRE is to annotate tandem repeat (TR) sequences from input files in FASTA format. A typical command is as follows:
 ```sh
@@ -96,7 +96,7 @@ vampire anno -f -t 8 [prefix] [output_prefix]
 vampire anno -f --no-denovo -t 8 [prefix] [output_prefix]
 ```
 
-### generator - Generate simulated TR sequences
+### **generator - Generate simulated TR sequences**
 VAMPIRE can generate simulated TR sequences with single or multiple given motif(s), user-defined length and mutation rate. The default random seed is 42. To change the random seed, use the `-s` option.
 ```sh
 # Generate simulated TR sequences
@@ -117,7 +117,7 @@ vampire mkref tests/003-mkref_data tests/003-mkref_reference.fa
 ```
 
 
-### evaluate - Evaluate annotation quality
+### **evaluate - Evaluate annotation quality**
 VAMPIRE evaluates the quality of annotation in a edit distance matrix method.
 ```sh
 # Evaluate the quality of annotation
@@ -125,7 +125,7 @@ vampire evaluate tests/001-anno_STR tests/004-evaluate
 ```
 Four figures will be generated, combining two modes (`raw` and `normalized`) with strand options (`merge` and `seperate`). For detailed machanisms, usage and interpretation of the `raw` and `normalized` modes as well as the `merge` and `seperate` strand settings.
 
-### refine - Refine annotation
+### **refine - Refine annotation**
 
 This refinement process will generate a new annotation file with the same format as the input with the refinement action provided by user. Three operations (`MERGE`, `REPLACE` and `DELETE`) are supported.
 ```sh
@@ -133,7 +133,7 @@ This refinement process will generate a new annotation file with the same format
 vampire refine tests/001-anno_STR tests/005-refine_action.tsv -o tests/005-anno_STR.revised
 ```
 
-### logo - Plotting sequence logos to visualize motif variation
+### **logo - Plotting sequence logos to visualize motif variation**
 
 VAMPIRE plots sequence logos in three types: count, probability, and information score. By default, VAMPIRE plot sequence logos using the motif statistics file `*.motif.tsv`. If you want to plot sequence logos using the annotation file `*.anno.tsv` to show the true motif variation, use the `--type annotation` option.
 ```sh
@@ -143,7 +143,7 @@ vampire logo --type annotation tests/001-anno_STR tests/006-anno_STR_annotation
 ```
 
 
-### identity - Calculate the identity matrix for TR sequences
+### **identity - Calculate the identity matrix for TR sequences**
 
 VAMPIRE uses alignment-based method to calculate the identity matrix for TR sequences.
 ```sh
