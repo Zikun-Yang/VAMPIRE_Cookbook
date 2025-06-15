@@ -108,7 +108,7 @@ This command will output three files:
 - `tests/002-generator_reference.anno.tsv`: the annotation results with mutations.
 - `tests/002-generator_reference.fa.anno_woMut.tsv`: the annotation results without mutations.
 
-### <a name="mkref"></a>mkref - Create reference motifset
+### **mkref - Create reference motifset**
 
 The `mkref` function can generate motif database (in FASTA format) from VAMPIRE annotation results. It can corporate with the `anno` function to annotate TR sequences in a two-step approach: firstly, use `anno` to annotate TR sequences, then use `mkref` to generate motif database from the annotation results. Then, the `anno` function can use this motif database in non-de novo mode to annotate TR sequences.  This two-step approach can generate a motif database on population level and annotate TR sequences with high accuracy.
 ```sh
