@@ -24,7 +24,7 @@ The `generator` command in VAMPIRE is designed to generate simulated tandem repe
 
 ## **Input and Output**
 
-### **Input:**
+### **Input**
 
 | Input         | Format              | Description                                              | Default |
 |:------------- |:------------------- |:---------------------------------------------------------|:--------|

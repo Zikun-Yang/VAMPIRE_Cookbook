@@ -26,7 +26,7 @@ By providing a FASTA file containing tandem repeat loci, `anno` generates a list
 
 ## **Input and Output**
 
-### **Input:**
+### **Input**
 
 | Input      | Format | Description                                                    | Default |
 |:---------- |:------ |:---------------------------------------------------------------|:--------|

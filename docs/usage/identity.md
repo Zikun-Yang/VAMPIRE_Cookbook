@@ -1,11 +1,11 @@
 ---
-title: refine
+title: identity
 parent: Usage
 layout: default
-nav_order: 11
+nav_order: 15
 ---
 
-# **refine**
+# **identity**
 {: .no_toc }
 
 ## Table of contents
@@ -18,7 +18,7 @@ nav_order: 11
 
 ## **Introduction**
 
-The `refine` command in VAMPIRE is designed to refine the annotation results based on user-defined actions.
+The `identity` command in VAMPIRE is designed to calculate the self-identity of one TR sequence.
 
 ---
 
@@ -28,27 +28,32 @@ The `refine` command in VAMPIRE is designed to refine the annotation results bas
 
 | Input         | Format              | Description                                              | Default |
 |:------------- |:------------------- |:---------------------------------------------------------|:--------|
-| Config        | JSON                | Parameter set used for the annotation job                | None    |
 | Annotation    | TSV                 | Detailed annotation results from anno command            | None    |
 | Motif         | TSV                 | Statistics of detected motifs from anno command          | None    |
-| Action        | TSV                 | Refinement action provided by user                       | None    |
 
 ### **Output**
 
 | Output             | Format | Description                                    | Default |
 |:------------------ |:------ |:---------------------------------------------- |:--------|
-| Refined Annotation | TSV    | Detailed annotation results (Refined)          | None    |
-| Refined Concise    | TSV    | Summary of annotation results (Refined)        | None    |
-| Refined Motif      | TSV    | Statistics of detected motifs  (Refined)       | None    |
-| Refined Distance   | TSV    | Edit distances between detected motifs         | None    |
-
+| Identity Matrix    | BED    | Identity between two windows                   | None    |
 
 ---
 
 ## **Usage Examples**
 
+### **1. plot raw identity heatmap**
 ```bash
-vampire refine -t 6 -o annotation_prefix.refined annotation_prefix action.tsv
+vampire identity -t 30 -w 30 annotation_prefix output_prefix
+```
+
+### **2. plot inverted identity heatmap**
+```bash
+vampire identity -t 30 -w 30 --mode="invert" annotation_prefix output_prefix
+```
+
+### **3. plot identity heatmap including INDELs**
+```bash
+vampire identity -t 30 -w 30 --min-indel 1 --max-indel 10 annotation_prefix output_prefix
 ```
 
 ---
