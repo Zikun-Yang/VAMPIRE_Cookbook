@@ -49,26 +49,31 @@ By providing a FASTA file containing tandem repeat loci, `anno` generates a list
 ## **Usage Examples**
 
 ### **1. *de novo* annotate**
+Annotate tandem repeat loci directly from a FASTA file, discovering motifs automatically.
 ```bash
-vampire anno repeats.fasta annotation_prefix
+vampire anno [parameters] repeats.fasta annotation_prefix
 ```
 
-### **2. decompose using a consensus motif**
+### **2. decompose using a consensus motif or a motif set**
+Decompose tandem repeats using a provided consensus motif or motif set, without de novo motif discovery.
 ```bash
 vampire anno [parameters] --no-denovo -m consensus_motif.fasta repeats.fasta annotation_prefix
 ```
 
 ### **3. annotate population-level sequence**
-Annotating tandem repeat (TR) loci at the population level can be challenging due to highly variable copy numbers among individuals. For loci with low copy numbers, accurate annotation is more difficult. In such cases, providing a curated motif set can improve annotation quality and consistency across samples. A two-step strategy can be applied:
-**STEP-1:** call the motif set
+Annotating tandem repeat (TR) loci at the population level can be challenging due to highly variable copy numbers among individuals. For loci with low copy numbers, accurate annotation is more difficult. In such cases, providing a curated motif set can improve annotation quality and consistency across samples. A three-step strategy can be applied:
+
+**STEP-1:** Call the motif set from the population sequences
 ```bash
 vampire anno [parameters] population_sequences.fasta population_annotation
 ```
-**STEP-2:** make motif database
+
+**STEP-2:** Create a motif database from the annotation
 ```bash
 vampire mkref population_annotation population_motif_set.fasta
 ```
-**STEP-3:** use database to annotate
+
+**STEP-3:** Use the curated motif database to annotate the population sequences
 ```bash
 vampire anno [parameters] --no-denovo -m population_motif_set.fasta population_sequences.fasta population_annotation.curated
 ```
