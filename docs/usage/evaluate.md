@@ -1,11 +1,11 @@
 ---
-title: TRgenerator
-parent: utilities
+title: evaluate
+parent: Usage
 layout: default
-nav_order: 3
+nav_order: 9
 ---
 
-# **TRgenerator**
+# **evaluates**
 
 ## How to run VAMPIRE?
 

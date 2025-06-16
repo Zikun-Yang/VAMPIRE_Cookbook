@@ -7,3 +7,11 @@ nav_order: 20
 
 # **Usage**
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+

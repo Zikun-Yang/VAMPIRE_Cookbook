@@ -1,11 +1,11 @@
 ---
-title: mkref
+title: evaluate
 parent: Usage
 layout: default
-nav_order: 7
+nav_order: 11
 ---
 
-# **mkref**
+# **refine**
 
 ## How to run VAMPIRE?
 
