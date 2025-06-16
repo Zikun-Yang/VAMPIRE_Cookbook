@@ -44,20 +44,22 @@ It takes a FASTA file of tandem repeat loci as input and produces an annotated T
 ## **Input and Output**
 
 ### **Input:**
-| Input        | Format        | Description                                          | Default |
-|:-------------|:--------------|:-----------------------------------------------------|:--------|
-| Sequence     | FASTA         | Sequence you want to annotate                        | None    |
-| Motif DB     | FASTA         | Motif database used to polish (and align) the motifs | base    |
+
+| Input      | Format | Description                                                    | Default |
+|:---------- |:------ |:---------------------------------------------------------------|:--------|
+| Sequence   | FASTA  | The sequence to be annotated                                   | None    |
+| Motif DB   | FASTA  | Motif database used to refine and align motifs during analysis | base    |
 
 
 ### **Output**
-| Output       | Format        | Description                        | Default |
-|:-------------|:--------------|:-----------------------------------|:--------|
-| Config       | Json          | Parameter set used in the job      | None    |
-| Annotation   | TSV           | Detailed annotation file           | None    |
-| Concise      | TSV           | Concise version of annotation file | None    |
-| Motif        | TSV           | Statistics of detected motifs      | None    |
-| distance     | TSV           | Edit distance between motifs       | None    |
+
+| Output     | Format | Description                               | Default |
+|:---------- |:------ |:------------------------------------------|:--------|
+| Config     | JSON   | Parameter set used for the annotation job | None    |
+| Annotation | TSV    | Detailed annotation results               | None    |
+| Concise    | TSV    | Summary of annotation results             | None    |
+| Motif      | TSV    | Statistics of detected motifs             | None    |
+| Distance   | TSV    | Edit distances between detected motifs    | None    |
 
 ## **Parameters**
 
