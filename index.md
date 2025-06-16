@@ -10,7 +10,7 @@ nav_order: 1
 
 ---
 
-# 👋 Welcome to the VAMPIRE Cookbook
+# **👋 Welcome to the VAMPIRE Cookbook**
 
 **VAMPIRE** is an integrated tool for annotating motif variation and detecting complex patterns in tandem repeats.
 
